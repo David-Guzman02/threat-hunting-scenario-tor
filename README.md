@@ -100,45 +100,45 @@ DeviceNetworkEvents
 
 ## Chronological Event Timeline 
 
-## Tor Browser Activity Timeline
+## 📅 Tor Browser Activity Timeline
 
 ---
 
-### Download & Execution of Tor Installer
+### 📥 Download & Execution of Tor Installer
 
-**May 26, 2025 – 12:39:41 AM (UTC-4)**  
+**🕒 May 26, 2025 – 12:39:41 AM (UTC-4)**  
 - `tor-browser-windows-x86_64-portable-14.5.2.exe` was renamed in the Downloads folder.  
 - This likely indicates a completed download or manual/system rename.
 
-**May 26, 2025 – 12:42:59 AM**  
+**🕒 May 26, 2025 – 12:42:59 AM**  
 - User `dgsec` executed the file `tor-browser-windows-x86_64-portable-14.5.2.exe` from `Downloads`.  
-- This confirmed the launch of the Tor Browser's portable installer.  
+- ✅ This confirmed the launch of the Tor Browser's portable installer.  
 - **Command:** `tor-browser-windows-x86_64-portable-14.5.2.exe /S`
 
 ---
 
-### Installation Artifacts Appeared
+### 📁 Installation Artifacts Appeared
 
-**May 26, 2025 – 12:43:14 AM**  
+**🕒 May 26, 2025 – 12:43:14 AM**  
 - Files such as `tor.exe`, `tor.txt`, and `Torbutton.txt` appeared in the Tor Browser directory.  
-- This indicates the application was successfully decompressed or extracted.
+- ✅ This indicates the application was successfully decompressed or extracted.
 
 ---
 
-### Tor Browser Process Activity
+### 🧪 Tor Browser Process Activity
 
-**May 26, 2025 – 12:44:11 AM to 12:45:00 AM**  
+**🕒 May 26, 2025 – 12:44:11 AM to 12:45:00 AM**  
 - Multiple `firefox.exe` processes were spawned from within the Tor Browser folder.  
-- These processes suggest the browser was actively opened, and tabs or background processes were launched.
+- ✅ These processes suggest the browser was actively opened, and tabs or background processes were launched.
 
 ---
 
-### Network Activity Suggesting Tor Usage
+### 🌐 Network Activity Suggesting Tor Usage
 
-**May 26, 2025 – 12:44:25 AM**  
+**🕒 May 26, 2025 – 12:44:25 AM**  
 - `tor.exe` established an outbound connection to `116.255.1.163` over **TCP port 9001**, a known Tor relay port.  
 
-**Other Notable Connections:**  
+**🔗 Other Notable Connections:**  
 - `tor.exe` also connected to:
   - `135.148.100.233` over port **443**
   - `51.83.132.103` over port **9001**
@@ -146,17 +146,18 @@ DeviceNetworkEvents
 
 ---
 
-### User File Creation
+### 📄 User File Creation
 
-**May 26, 2025 – 12:54:49 AM**  
+**🕒 May 26, 2025 – 12:54:49 AM**  
 - User `dgsec` created a file named `tor-shopping-list.txt` on the desktop.  
-- This may indicate they were collecting or organizing sensitive information.
+- 📌 This may indicate they were collecting or organizing sensitive information.
 
-**May 26, 2025 – 12:54:50 AM**  
+**🕒 May 26, 2025 – 12:54:50 AM**  
 - A `.lnk` shortcut to `tor-shopping-list.txt` was created in the AppData Recent Items folder.  
-- This likely resulted from the user opening or pinning the file.
+- 📁 This likely resulted from the user opening or pinning the file.
 
 ---
+
 
 ## Summary
 

@@ -160,7 +160,9 @@ DeviceNetworkEvents
 
 ## Summary
 
-The user "employee" on the "threat-hunt-lab" device initiated and completed the installation of the TOR browser. They proceeded to launch the browser, establish connections within the TOR network, and created various files related to TOR on their desktop, including a file named `tor-shopping-list.txt`. This sequence of activities indicates that the user actively installed, configured, and used the TOR browser, likely for anonymous browsing purposes, with possible documentation in the form of the "shopping list" file.
+On May 26, 2025, between 12:39 AM and 12:55 AM (UTC-4), the user dgsec on the device dg-win10 downloaded and executed the Tor Browser portable installer. The file tor-browser-windows-x86_64-portable-14.5.2.exe appeared in the Downloads folder and was launched at 12:42:59 AM. Shortly after execution, multiple Tor-related files—including tor.exe and Torbutton.txt—were extracted to the desktop, indicating the browser had been installed or unpacked.
+At approximately 12:44 AM, the user began interacting with the Tor Browser, as evidenced by the creation of multiple firefox.exe processes (used by Tor) and the spawning of tor.exe. Around this same time, the system established several outbound connections to known Tor network relays, including IP addresses 116.255.1.163 and 135.148.100.233 over ports 9001 and 443, confirming that Tor was actively used to anonymize traffic.
+Later, at 12:54:49 AM, the user created a file named tor-shopping-list.txt on the desktop, followed immediately by the creation of a shortcut to that file, suggesting it may have been accessed or referenced multiple times. These events collectively confirm that the Tor Browser was not only installed but also used within the session, including active network communication and content generation by the user.
 
 ---
 

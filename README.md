@@ -168,6 +168,6 @@ Later, at 12:54:49 AM, the user created a file named tor-shopping-list.txt on th
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `threat-hunt-lab` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+TOR usage was confirmed on the endpoint dg-win10 by the user dgsec. The device was isolated and the user's direct manager was notified.
 
 ---

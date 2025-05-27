@@ -119,7 +119,7 @@ DeviceNetworkEvents
 
 ### Installation Artifacts Appeared
 
-**🕒 May 26, 2025 – 12:43:14 AM**  
+**May 26, 2025 – 12:43:14 AM**  
 - Files such as `tor.exe`, `tor.txt`, and `Torbutton.txt` appeared in the Tor Browser directory.  
 - This indicates the application was successfully decompressed or extracted.
 
